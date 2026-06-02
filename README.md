@@ -75,4 +75,59 @@ marinas/
                 - Keep `project-updates.md` as the loose working log. It does not need to be perfectly organized.
                 - Keep CSVs as the structured source of truth. Update them when statuses, owners, or priorities change.
                 - Keep Markdown project files for context, background, decisions, and notes that do not fit in a spreadsheet cell.
+
+---
+
+## Reporting Workflow
+
+This repository uses a simple AI-assisted reporting workflow to keep the portfolio organized and visible.
+
+1. **User provides updates through AI.** Meeting notes, status changes, new tasks, and decisions are communicated to the AI in plain language.
+2. **AI updates project files and trackers.** The AI edits the relevant CSV rows, markdown files, or dashboard files based on the updates provided.
+3. **GitHub remains the source of truth.** All committed changes in this repository are authoritative. CSV files and project markdown files are the primary record.
+4. **AI can generate reports from repository data.** When needed, the AI can read CSV and markdown files and generate summaries, dashboards, or status reports.
+5. **Dashboard files provide a human-readable layer.** The dashboard.md, current-priorities.md, leadership-review.md, and weekly-summary.md files translate tracker data into readable summaries.
+6. **Future integrations can consume data from the repository.** Airtable, Google Drive, custom dashboards, and other tools can be connected to consume this repository's data without replacing it as the source of truth.
+
+---
+
+## Reporting and Dashboard Files
+
+| File | Purpose |
+|------|---------|
+| dashboard.md | Portfolio-wide operational dashboard. AI-generated. Refresh regularly. |
+| current-priorities.md | Most important active work across the portfolio. Update when priorities change. |
+| leadership-review.md | Items requiring leadership review, approval, direction, or escalation. |
+| weekly-summary.md | Weekly summary of meaningful changes. Update weekly. |
+| reports/ | Folder for AI-generated reports and periodic summaries. |
+
+---
+
+## Status Values
+
+Use these standard values across all CSV trackers for consistency.
+
+### Project Status
+- Not Started
+- Planning
+- In Progress
+- Needs Review
+- Waiting on Approval
+- Blocked
+- Completed
+- Paused
+
+### Task Status
+- Not Started
+- In Progress
+- Needs Review
+- Waiting on Someone
+- Blocked
+- Completed
+- Deferred
+
+### Priority
+- High
+- Medium
+- Low
                 - If AI is helping maintain this repo, provide the relevant CSV row or Markdown section and ask for a specific update.
