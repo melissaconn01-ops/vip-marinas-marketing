@@ -130,4 +130,62 @@ Use these standard values across all CSV trackers for consistency.
 - High
 - Medium
 - Low
+- If AI is helping maintain this repo, provide the relevant CSV row or Markdown section and ask for a specific update.
+
+---
+
+## AI Project Management Rules
+
+These rules govern how AI should manage this repository. They apply to all edits, updates, and reporting tasks.
+
+### Read Before Write
+
+AI must read the relevant files before editing them. Do not assume the current state of a file without reading it first.
+
+### Approval Before Commit
+
+The default workflow is:
+
+1. AI reads relevant files.
+2. AI proposes updates.
+3. User approves.
+4. AI commits changes.
+
+Auto-commit is allowed only when the user explicitly says so.
+
+### Read-After-Write Verification
+
+After committing, AI should re-open the updated files and verify that the expected rows, files, or sections were created correctly.
+
+### Failed Update Reporting
+
+If any file update fails or is blocked, AI must include a "Failed or Skipped Updates" section in its summary before finishing.
+
+### Dashboard Refresh Rule
+
+After meaningful project, campaign, task, or tracking updates, AI should refresh the following files when relevant:
+
+- dashboard.md
+- current-priorities.md
+- leadership-review.md
+- weekly-summary.md
+
+### Event Project Rule
+
+For event projects, AI should update all of the following that apply:
+
+- project-index.csv
+- project-tasks.csv
+- campaign-tracker.csv (if promotion is involved)
+- tracking-issues.csv (if registration or source tracking is needed)
+- event-tracker.csv
+- Marina project Markdown file
+- Dashboard and reporting files
+
+### Cross-Property Project Rule
+
+If a project involves more than one marina, use Related Project ID fields in project-index.csv and campaign-tracker.csv to connect the projects.
+
+Example: MER-EVT-001 relates to BH-EVT-001, and BH-EVT-001 relates to MER-EVT-001.
+- Low
                 - If AI is helping maintain this repo, provide the relevant CSV row or Markdown section and ask for a specific update.
