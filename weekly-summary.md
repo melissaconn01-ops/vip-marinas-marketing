@@ -42,7 +42,7 @@ Last updated: 2026-06-03
            
             - | Campaign | Marina | Update | Status |
             - |---|---|---|---|
-            - | MER-CAM-002 — Meridian Bahamas Run | Meridian | Campaign row added in planning status. Related Project ID set to MER-EVT-001. | Planning |
+            - | MER-CAM-002 Meridian Bahamas Run | Meridian | Campaign row added in planning status. Related Project ID set to MER-EVT-001. | Planning |
            
             - ### Upcoming Priorities
            
