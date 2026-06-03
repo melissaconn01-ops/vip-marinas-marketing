@@ -27,7 +27,6 @@ Last updated: 2026-06-03 | Source files: `project-index.csv`, `project-tasks.csv
 | LT-CAM-001 | Lake Travis | Lake Travis Summer Campaign | Campaign launch approval | In Progress |
 | LT-TRK-001 | Lake Travis | Conversion Tracking Setup | Tracking audit findings approval | Needs Review |
 | BH-WEB-001 | Bluff House | Website Rewrite | Brand positioning and content direction | In Progress |
-| BH-EVT-001 | Bluff House | Bahamas Run Promotion | Promotional content and event details | Planning |
 | MER-LEAD-001 | Meridian | Lead Tracking Cleanup | CRM field restructure approval | In Progress |
 | MER-STO-001 | Meridian | Dry Storage Opening | Campaign launch approval and timeline confirmation | Planning |
 | ANC-WEB-001 | Anclote | Website Service Updates | Content update review and approval | Needs Review |
