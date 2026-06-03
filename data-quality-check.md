@@ -35,10 +35,6 @@ Last updated: 2026-06-03
 - Events missing registration deadlines
 - Events missing tracking requirements
 
-### Events
-- Events missing registration deadlines
-- Events missing tracking requirements
-
 ---
 
 ## Current Flags
@@ -50,6 +46,7 @@ Last updated: 2026-06-03
 | Welcome Party date for Meridian Bahamas Run needs verification | event-tracker.csv | Open |
 | Bahamas Run registration path is not yet defined | MER-EVT-001, MER-TRK-103 | Open |
 | Dashboard and reporting .md files had messy nested formatting from initial setup | Multiple .md files | Resolved 2026-06-03 |
+| Duplicate Bluff House Bahamas Run project/campaign/task records created scope confusion | BH-EVT-001 / BH-EVT tasks / BH-EVT campaign row | Resolved 2026-06-03 — removed from active trackers; old Bluff House markdown file marked removed from active tracking |
 
 ---
 
