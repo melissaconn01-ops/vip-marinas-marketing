@@ -76,3 +76,20 @@ Corporate-wide projects should use Marina ID CORP. Portfolio-wide tracking issue
 | Portfolio-wide tracking issues not linked to CORP-TRK-001 | tracking-issues.csv | Open |
 | Need to confirm final list of all 15 marinas for marina-index.csv | marina-index.csv | Open |
 | Need to determine if any existing projects should move to Corporate / All Marinas | project-index.csv | Open |
+
+---
+
+## Project Relationship Checks
+
+Every project referenced in dashboard.md should exist in project-index.csv. Every campaign referenced in dashboard.md should exist in campaign-tracker.csv. Related Project ID should only be used when there is a real relationship. Corporate projects should not be related to unrelated marina or event projects. Cross-property projects should clearly define which property owns which side of the work. If a campaign references a related project, the related project should exist in project-index.csv. If a project has a Related File, the file should exist.
+
+---
+
+## Task 2A QA Flags
+
+| Flag | File / Location | Status |
+|---|---|---|
+| CORP-TRK-001 was incorrectly related to BH-EVT-001 | project-index.csv | Resolved 2026-06-04 |
+| BH-EVT-001 was referenced in dashboard.md but was missing from project-index.csv and campaign-tracker.csv | project-index.csv, campaign-tracker.csv | Resolved 2026-06-04 |
+| Dashboard formatting had nested bullet issues and required cleanup | dashboard.md | Resolved 2026-06-04 |
+| Bahamas Run needed clear split ownership between Meridian and Bluff House | project-index.csv, campaign-tracker.csv, dashboard.md | Resolved 2026-06-04 |
