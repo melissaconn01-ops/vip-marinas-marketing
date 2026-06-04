@@ -59,3 +59,20 @@ After major project updates, AI should:
 3. Summarize any missing data, inconsistent links, or failed updates.
 4. Flag any new issues in this file.
 5. Refresh dashboard.md, current-priorities.md, leadership-review.md, and weekly-summary.md when relevant data has changed.
+
+---
+
+## Corporate Scope Checks
+
+Corporate-wide projects should use Marina ID CORP. Portfolio-wide tracking issues should link to CORP-TRK-001. Corporate projects should have Markdown files under marinas/corporate/projects/. Dashboard files should include Corporate / All Marinas when active CORP projects exist. Tracking issues affecting all marinas should reference CORP as Marina unless marina-specific.
+
+---
+
+## Corporate Current Flags
+
+| Flag | File / Location | Status |
+|---|---|---|
+| Corporate projects not using Marina ID CORP | project-index.csv, marina-index.csv | Open |
+| Portfolio-wide tracking issues not linked to CORP-TRK-001 | tracking-issues.csv | Open |
+| Need to confirm final list of all 15 marinas for marina-index.csv | marina-index.csv | Open |
+| Need to determine if any existing projects should move to Corporate / All Marinas | project-index.csv | Open |
