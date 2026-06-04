@@ -81,3 +81,39 @@ Last updated: 2026-06-03 | Source files: `project-tasks.csv`, `project-index.csv
 | MER-TRK-102 | Meridian | Lead source and contact method combined | Cannot separate data | High | Restructure CRM fields |
 | MER-TRK-103 | Meridian | Bahamas Run registration source and attendee tracking needs to be defined before promotion opens | Sign-ups may be captured but source/status hard to report | High | Create registration path and confirmed attendee sheet before July 15 |
 | GEN-TRK-101 | All Marinas | GA4/Google Ads conversion review | Reporting accuracy at risk | High | Schedule audit |
+
+---
+
+## Corporate / All Marinas Priorities
+
+| Priority | Scope | Task / Item | Owner | Status | Notes |
+|---|---|---|---|---|---|
+| High | Corporate | Audit GA4 events across all marina websites | Marketing/Dev | Not Started | Required for portfolio conversion tracking |
+| High | Corporate | Audit Google Ads conversion actions by marina | Marketing/Dev | Not Started | Required for CORP-TRK-001 |
+| High | Corporate | Confirm form fill tracking by marina | Marketing/Dev | Not Started | Needed before CRM/lead setup |
+| High | Corporate | Confirm phone and click-to-call tracking by marina | Marketing/Dev | Not Started | Needed before CRM/lead setup |
+| High | Corporate | Confirm Kenect/text lead tracking by marina | Marketing/Dev | Not Started | Needed before CRM/lead setup |
+| High | Corporate | Define UTM naming standards for all marinas | Marketing | Not Started | Blocks consistent attribution reporting |
+| High | Corporate | Define lead source and contact method standards | Marketing | Not Started | Required for CORP-CRM-001 |
+| High | Corporate | Define reporting requirements and dashboard format | Marketing | Not Started | Required for CORP-RPT-001 |
+
+---
+
+## Leadership Follow-Up Needed
+
+| Item | Scope | Status | Action Required |
+|---|---|---|---|
+| Approve tracking standards | Corporate | Pending | Review and approve conversion tracking approach for all marinas |
+| Approve CRM/lead source/contact method standards | Corporate | Pending | Review and approve lead management standards |
+| Approve reporting/dashboard priorities | Corporate | Pending | Confirm which metrics and format to use for portfolio reporting |
+| Approve brand/messaging standards | Corporate | Pending | Review and approve brand guidelines for all marinas |
+
+---
+
+## Marina Team Follow-Up Needed
+
+| Item | Marina | Status | Action Required |
+|---|---|---|---|
+| Confirm Bahamas Run rooms, slips, and logistics | Meridian | Pending | Molly and Felicia to confirm before checklist is created |
+| Confirm Bahamas Run route and customs plan | Meridian | Pending | Shad to confirm before checklist is created |
+| Confirm GA4 and tracking setup status | All Marinas | Pending | Marina contacts to confirm current tracking configuration |
