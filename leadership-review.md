@@ -119,3 +119,39 @@ Last updated: 2026-06-03 | Source files: `project-index.csv`, `project-tasks.csv
 | Review and approve conversion tracking standards | Corporate | High | Required before CORP-TRK-001 implementation begins |
 | Review and approve CRM and lead source standards | Corporate | High | Required before CORP-CRM-001 implementation begins |
 | Review and approve reporting KPIs and format | Corporate | High | Required before CORP-RPT-001 development begins |
+
+---
+
+## Bluff House Bahamas Run Decisions Needed
+
+| Item | Scope | Context | Options / Recommendation | Urgency |
+|---|---|---|---|---|
+| Confirm Bluff House role in Bahamas Run destination support | Bluff House | Bluff House is the destination property for the Meridian Bahamas Run — rooms, slips, special rates, welcome party, and onsite experience need to be confirmed | Recommend confirming Bluff House support scope before promotional materials are created | High |
+| Confirm special rates, room/slip availability, and welcome party details | Bluff House | These details are required before Meridian can finalize customer-facing promotional materials | Recommend Molly and Felicia confirm availability and Bluff House team confirms rates and welcome party | High |
+
+---
+
+## Bluff House Bahamas Run Projects Waiting on Approval
+
+| Project ID | Project Name | Marina | Status | What Is Needed |
+|---|---|---|---|---|
+| BH-EVT-001 | Bluff House Bahamas Run Destination Support | Bluff House | Planning | Confirm scope, confirm rooms/slips/rates/welcome party, approve destination role in promotional materials |
+
+---
+
+## Bluff House Bahamas Run Risks and Concerns
+
+| Risk | Scope | Impact | Mitigation |
+|---|---|---|---|
+| Destination logistics not confirmed before promotion opens | Bluff House | Registration messaging may be incomplete or inaccurate if Bluff House details are not confirmed | Confirm rooms, slips, and rates before Meridian finalizes promotional email and flyer |
+| Misaligned customer experience | Bluff House | If rooms/slips/rates are not aligned with Meridian registration, the customer experience may feel disjointed | Align Bluff House support details with Meridian registration and customer communications |
+
+---
+
+## Bluff House Bahamas Run Recommended Next Actions
+
+| Action | Scope | Priority | Notes |
+|---|---|---|---|
+| Confirm Bluff House logistics and special rates | Bluff House | High | Molly and Felicia to confirm rooms, slips, and rates |
+| Align Bluff House support details with Meridian registration | Bluff House | High | Required before promotional email and flyer are finalized |
+| Approve Bluff House destination support role | Bluff House | High | Confirm how Bluff House will be referenced in customer-facing Bahamas Run materials |
