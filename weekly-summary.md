@@ -63,6 +63,24 @@ Last updated: 2026-06-03
 - Bluff House should be treated as the destination and support property for this event, not as a separate active Bahamas Run project.
 
 ---
+### Corporate / All Marinas Structure Update
+
+Corporate / All Marinas (CORP) scope added to the repository this week. Created marinas/corporate/ folder with overview.md and 5 project files. Added CORP row to marina-index.csv and 5 corporate projects to project-index.csv. GEN-TRK-101 linked to CORP-TRK-001. Added 8 CORP-TRK-001 tasks to project-tasks.csv.
+
+### Projects Advanced This Week (Corporate)
+
+| Project ID | Project Name | Update |
+|---|---|---|
+| CORP-TRK-001 | Portfolio-Wide Conversion Tracking Setup | Project created. 8 tasks added. GEN-TRK-101 linked. |
+| CORP-CRM-001 | Portfolio-Wide CRM and Lead Management | Project created. Project file created. |
+| CORP-RPT-001 | Portfolio Reporting and Dashboard System | Project created. Project file created. |
+| CORP-BRAND-001 | Portfolio Brand and Messaging Standards | Project created. Project file created. |
+| CORP-VEND-001 | Vendor and Agency Management | Project created. Project file created. |
+
+### Corporate Upcoming Priorities
+
+Define and approve conversion tracking standards for all marinas. Define and approve CRM lead source and contact method standards. Define reporting KPIs and dashboard format. Approve brand and messaging standards. Schedule corporate kickoff meeting with leadership.
+
 
 ## Archive
 
