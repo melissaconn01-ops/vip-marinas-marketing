@@ -75,3 +75,47 @@ Last updated: 2026-06-03 | Source files: `project-index.csv`, `project-tasks.csv
 | Confirm dry storage campaign scope and launch timeline | Meridian | High | Required to begin campaign planning |
 | Review tracking audit findings when complete | All Marinas | High | Will inform ad spend decisions |
 | Review Anclote website update priorities | Anclote | Medium | Missing services may be affecting inbound leads |
+
+---
+
+## Corporate Decisions Needed
+
+| Item | Scope | Context | Options / Recommendation | Urgency |
+|---|---|---|---|---|
+| Approve portfolio-wide conversion tracking standards | Corporate | No consistent tracking setup exists across marinas — GA4, Google Ads, Kenect each tracked differently | Recommend standardizing event naming and conversion actions before scaling ad campaigns | High |
+| Approve CRM and lead source standards | Corporate | Lead source and contact method are currently combined in CRM fields across marinas | Recommend defining a required lead source taxonomy and contact method field structure | High |
+| Approve portfolio reporting format and cadence | Corporate | No standard reporting dashboard or reporting schedule exists | Recommend agreeing on KPIs and reporting frequency before building dashboard system | High |
+| Approve brand and messaging standards | Corporate | Messaging tone, value propositions, and visual standards vary by marina | Recommend defining minimum brand standards while allowing marina-level customization | Medium |
+
+---
+
+## Corporate Projects Waiting on Approval
+
+| Project ID | Project Name | Marina | Status | What Is Needed |
+|---|---|---|---|---|
+| CORP-TRK-001 | Portfolio-Wide Conversion Tracking Setup | Corporate | In Progress | Leadership sign-off on tracking standards before implementation |
+| CORP-CRM-001 | Portfolio-Wide CRM and Lead Management Setup | Corporate | Planning | Leadership sign-off on lead source and contact method taxonomy |
+| CORP-RPT-001 | Portfolio Reporting and Dashboard System | Corporate | Planning | Leadership approval of reporting KPIs and format |
+| CORP-BRAND-001 | Portfolio Brand and Messaging Standards | Corporate | Planning | Leadership approval of brand guidelines |
+
+---
+
+## Corporate Risks and Concerns
+
+| Risk | Scope | Impact | Mitigation |
+|---|---|---|---|
+| Tracking inconsistency across marinas | Corporate | Cannot reliably measure ad performance or lead attribution at portfolio level | Standardize tracking before scaling any marina's ad spend |
+| CRM data quality issues | Corporate | Reports and dashboards will be unreliable without consistent lead data | Define and enforce field standards across all marina CRM users |
+| No baseline reporting | Corporate | Cannot measure portfolio-wide performance or identify underperforming marinas | Build reporting dashboard once tracking and CRM standards are approved |
+| Brand inconsistency | Corporate | Customer experience varies by marina in ways that may affect brand perception | Define minimum brand standards while allowing marina personality |
+
+---
+
+## Corporate Recommended Next Actions
+
+| Action | Scope | Priority | Notes |
+|---|---|---|---|
+| Schedule corporate kickoff meeting to review CORP scope | Corporate | High | Align leadership on what falls under Corporate vs marina-level |
+| Review and approve conversion tracking standards | Corporate | High | Required before CORP-TRK-001 implementation begins |
+| Review and approve CRM and lead source standards | Corporate | High | Required before CORP-CRM-001 implementation begins |
+| Review and approve reporting KPIs and format | Corporate | High | Required before CORP-RPT-001 development begins |
