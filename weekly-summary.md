@@ -81,6 +81,14 @@ Corporate / All Marinas (CORP) scope added to the repository this week. Created 
 
 Define and approve conversion tracking standards for all marinas. Define and approve CRM lead source and contact method standards. Define reporting KPIs and dashboard format. Approve brand and messaging standards. Schedule corporate kickoff meeting with leadership.
 
+### Corporate Structure QA Cleanup (Task 2A)
+
+Corrected CORP-TRK-001 related project ID — was incorrectly set to BH-EVT-001, now blank. Restored BH-EVT-001 as the Bluff House destination/support side of the Bahamas Run. Clarified that MER-EVT-001 owns Meridian customer sign-ups and customer communication. Clarified that BH-EVT-001 owns Bluff House rooms, slips, rates, welcome party, onsite experience, and destination logistics. Cleaned dashboard formatting and refreshed all dashboard references to include both MER-EVT-001 and BH-EVT-001.
+
+### Projects Clarified This Week
+
+MER-EVT-001 and BH-EVT-001 are now linked via Related Project ID. BH-EVT-001 is active in project-index.csv and campaign-tracker.csv. marinas/bluff-house/projects/bahamas-run.md updated to reflect destination support role.
+
 
 ## Archive
 
