@@ -189,3 +189,25 @@ If a project involves more than one marina, use Related Project ID fields in pro
 Example: MER-EVT-001 relates to BH-EVT-001, and BH-EVT-001 relates to MER-EVT-001.
 - Low
                 - If AI is helping maintain this repo, provide the relevant CSV row or Markdown section and ask for a specific update.
+
+---
+
+## Corporate / All Marinas Scope
+
+The Corporate / All Marinas scope (Marina ID: CORP) is for projects that affect all marinas or the full VIP Marinas portfolio. Use the marinas/corporate/ folder for these projects.
+
+### When to Use CORP vs Marina-Specific
+
+Use CORP when a project, task, or tracking issue applies to all marinas or cannot be attributed to a single marina. Use a marina-specific folder (e.g., marinas/lake-travis/) when the work is specific to one marina.
+
+Examples of CORP scope: conversion tracking standards, CRM and lead management setup, reporting and dashboard system, brand and messaging standards, vendor and agency management.
+
+### Marina ID Clarification: CORP vs ALL
+
+CORP is the Marina ID for the Corporate / All Marinas project owner. Use CORP in project-index.csv, project-tasks.csv, and marina-index.csv for corporate-scope projects.
+
+ALL is used only in tracking-issues.csv to indicate an issue that affects all properties but is not formally owned by a corporate project. When a tracking issue is resolved by creating a corporate project, update the Marina field to CORP and link the Related Project ID.
+
+### Tracking as a Corporate Project
+
+Portfolio-wide tracking issues (e.g., GA4/Google Ads conversion review) are managed under CORP-TRK-001 in project-index.csv. GEN-TRK-101 in tracking-issues.csv links to CORP-TRK-001. Do not treat portfolio-wide tracking issues as standalone items — they should roll up to the CORP-TRK-001 project.
