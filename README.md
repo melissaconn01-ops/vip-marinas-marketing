@@ -211,3 +211,13 @@ ALL is used only in tracking-issues.csv to indicate an issue that affects all pr
 ### Tracking as a Corporate Project
 
 Portfolio-wide tracking issues (e.g., GA4/Google Ads conversion review) are managed under CORP-TRK-001 in project-index.csv. GEN-TRK-101 in tracking-issues.csv links to CORP-TRK-001. Do not treat portfolio-wide tracking issues as standalone items — they should roll up to the CORP-TRK-001 project.
+
+---
+
+## Cross-Property Project Relationships
+
+Some projects involve more than one marina. In those cases, each property may have its own project record, and the records should be linked with Related Project ID.
+
+Example: MER-EVT-001 — Meridian Bahamas Run owns customer sign-ups, attendee sheet, registration, email, flyer, checklist, and Meridian customer communication. BH-EVT-001 — Bluff House Bahamas Run Destination Support owns destination support, rooms, slips, special rates, welcome party, onsite experience, and Bluff House logistics.
+
+Rule: Use Related Project ID only when the relationship is real and useful. Do not link unrelated corporate projects to marina-specific projects. Corporate projects (CORP scope) should have blank Related Project ID unless there is a documented reason to link them to a specific marina project.
