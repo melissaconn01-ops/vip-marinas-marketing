@@ -117,3 +117,19 @@ Last updated: 2026-06-03 | Source files: `project-tasks.csv`, `project-index.csv
 | Confirm Bahamas Run rooms, slips, and logistics | Meridian | Pending | Molly and Felicia to confirm before checklist is created |
 | Confirm Bahamas Run route and customs plan | Meridian | Pending | Shad to confirm before checklist is created |
 | Confirm GA4 and tracking setup status | All Marinas | Pending | Marina contacts to confirm current tracking configuration |
+| Confirm Bluff House rooms and slips for Bahamas Run | Bluff House | Pending | Molly and Felicia to confirm before destination details can be finalized |
+| Confirm Bluff House special rates for Bahamas Run | Bluff House | Pending | Bluff House team to confirm before promotional materials are created |
+| Confirm welcome party details | Bluff House | Pending | Bluff House team to confirm date, time, and logistics |
+| Provide Bluff House destination details for email, flyer, and participant checklist | Bluff House | Pending | Required before Meridian can finalize customer-facing materials |
+
+---
+
+## Bluff House Bahamas Run Support Priorities
+
+| Priority | Item | Status | Notes |
+|---|---|---|---|
+| High | Confirm rooms and slips for Bahamas Run | Not Started | Molly and Felicia — needed before registration opens |
+| High | Confirm Bluff House special rates | Not Started | Required before promotional materials are created |
+| High | Confirm welcome party details | Not Started | Date, time, logistics needed for participant checklist |
+| High | Provide destination details for promotional materials | Not Started | Required before email and flyer are finalized |
+| High | Approve Bluff House destination support role | Pending Leadership | Confirm Bluff House role in customer-facing Bahamas Run messaging |
