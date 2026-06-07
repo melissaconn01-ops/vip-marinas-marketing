@@ -6,6 +6,52 @@ Use this file as the working log for new updates, meeting notes, leadership feed
 
 ## Log
 
+### 2026-06-04 — Meridian Bahamas Run Progress Update
+
+**Marina:** Meridian  
+**Project Topic:** Events / Campaign  
+**Related Project ID:** MER-EVT-001
+
+### Update
+
+Bahamas Run progress update added. A planning meeting is scheduled for Friday. The logo is complete, the flyer draft is complete, the team is calling past attendees, and a spreadsheet has been set up for the team to enter past-attendee call and attendee data.
+
+### Decisions / Progress
+
+- Logo is complete.
+- Flyer draft is complete and ready for review.
+- Team is working on calling past attendees.
+- Spreadsheet is set up for past-attendee call and attendee data.
+- Friday meeting is scheduled to review current status and next steps.
+
+### Tasks Updated
+
+- Confirmed attendee Excel/sheet marked completed.
+- Property flyer moved to Needs Review.
+- Friday meeting task added.
+- Logo completion task added and marked completed.
+- Past-attendee calling task added and marked In Progress.
+
+### Questions / Blockers
+
+- Registration or interest form still needs to be finalized.
+- Friday meeting should confirm remaining logistics, rates, route, and checklist needs.
+- Attendee spreadsheet should continue to be updated as calls are completed.
+
+### Files Updated
+
+- project-index.csv
+- project-tasks.csv
+- campaign-tracker.csv
+- tracking-issues.csv
+
+### Files Not Updated
+
+- event-tracker.csv update was blocked by connector safety check.
+- marinas/meridian/projects/bahamas-run.md was not updated due failed/incomplete GitHub update calls.
+
+---
+
 ### 2026-06-03 — Meridian Bahamas Run
 
 **Marina:** Meridian  
