@@ -2,23 +2,63 @@
 
 ## Purpose
 
-This repository is the source of truth for VIP Marinas marketing project management. It is organized to keep all campaign work, website updates, tracking issues, and leadership follow-up in one clean, accessible place.
+This repository is the source of truth for VIP Marinas marketing project management. It keeps projects, tasks, campaigns, tracking issues, decisions, and leadership follow-up organized so work can continue across conversations, devices, and AI sessions.
 
-## How This Repo Is Organized
+## Core Workflow
 
-The workflow follows a simple three-level hierarchy:
+The system follows this hierarchy:
 
 **Marina → Project Topic → Managed Task / Item**
 
-- **Marina** is the top level. Each marina has its own folder under `marinas/`.
-- **Project Topic** is the second level. Inside each marina folder is a `projects/` subfolder with a Markdown file for each active project or focus area.
-- **Managed Task / Item** is the third level. Individual tasks, action items, approvals, blockers, and next steps are tracked in the CSV files at the root level.
+- Marina folders contain property-specific context and projects.
+- CSV trackers contain structured operational data.
+- Markdown files contain project background, decisions, notes, and context.
+- Dashboard files provide human-readable reporting layers.
 
-## File Types
+---
 
-**Markdown files** (`.md`) hold project notes, context, background, open questions, and latest updates. They are the working documents for each project.
+## AI Workflow
 
-**CSV files** (`.csv`) hold spreadsheet-style trackers. They can be opened in Excel, Google Sheets, or reviewed directly on GitHub.
+Use these layers together:
+
+### 1. Chat / Working Session
+
+Use ChatGPT or Codex sessions for:
+
+- Brainstorming
+- Research
+- Strategy
+- Drafting
+- Problem solving
+- Decision making
+
+Not every conversation needs to become a repository update.
+
+### 2. Chat Intake Log
+
+Use `chat-intake-log.md` for important information that needs to be preserved but has not yet been organized into official trackers.
+
+Examples:
+
+- Meeting notes
+- New ideas
+- Vendor updates
+- Decisions made in chat
+- Project changes discovered during discussion
+
+### 3. Official Project Records
+
+Move confirmed information into:
+
+- `project-index.csv`
+- `project-tasks.csv`
+- `campaign-tracker.csv`
+- `tracking-issues.csv`
+- `event-tracker.csv`
+- Marina project markdown files
+- Dashboard/reporting files
+
+See `ai-workflow.md` for the full process.
 
 ---
 
@@ -26,88 +66,80 @@ The workflow follows a simple three-level hierarchy:
 
 | File | Purpose |
 |---|---|
-| `README.md` | This file. Overview and guide to the repo. |
-| `project-updates.md` | Working log for meeting notes, changes, and updates. Use this as the messy working doc. |
-| `marina-index.csv` | Portfolio-level tracker for all marinas. |
-| `project-index.csv` | Tracks all major projects by marina. |
-| `project-tasks.csv` | Tracks specific action items, approvals, blockers, and next steps. |
-| `campaign-tracker.csv` | Tracks marketing campaigns across marinas. |
-| `tracking-issues.csv` | Tracks conversion tracking, lead tracking, GA4, Google Ads, phone, form, Kenect, and CRM issues. |
+| `README.md` | Repository guide and operating rules |
+| `ai-workflow.md` | AI + GitHub workflow instructions |
+| `chat-intake-log.md` | Fast capture from chats and working sessions |
+| `project-index.csv` | Major projects by marina |
+| `project-tasks.csv` | Tasks, approvals, blockers, next steps |
+| `campaign-tracker.csv` | Marketing campaigns |
+| `tracking-issues.csv` | Tracking, CRM, GA4, Ads, phone, form, and lead issues |
+| `event-tracker.csv` | Event-specific planning and tracking |
 
 ---
 
-## Marina Folders
+## Source of Truth Rules
 
-Each marina has a folder under `marinas/` with the following structure:
-
-```
-marinas/
-└── marina-name/
-    ├── overview.md         ← Marina-level marketing overview
-        └── projects/
-                └── project-name.md ← One file per project or focus area
-                ```
-
-                ### Current Marinas
-
-                | Marina | Folder | Status |
-                |---|---|---|
-                | Lake Travis | `marinas/lake-travis/` | Active |
-                | Bluff House | `marinas/bluff-house/` | Active |
-                | Meridian | `marinas/meridian/` | Active |
-                | Anclote | `marinas/anclote/` | Needs Review |
-
-                ---
-
-                ## How to Use This Repo
-
-                1. **For new updates or meeting notes** → Add an entry to `project-updates.md`
-                2. **For project status** → Check `project-index.csv`
-                3. **For individual tasks and action items** → Check `project-tasks.csv`
-                4. **For campaign details** → Check `campaign-tracker.csv`
-                5. **For tracking issues** → Check `tracking-issues.csv`
-                6. **For marina-specific context** → Open the relevant `overview.md` or project file under `marinas/`
-
-                ---
-
-                ## Maintenance Notes
-
-                - Keep `project-updates.md` as the loose working log. It does not need to be perfectly organized.
-                - Keep CSVs as the structured source of truth. Update them when statuses, owners, or priorities change.
-                - Keep Markdown project files for context, background, decisions, and notes that do not fit in a spreadsheet cell.
+- CSV files are the structured source of truth.
+- Markdown files store context, decisions, and project details.
+- Dashboards summarize tracker data.
+- Chat intake captures information before it is processed.
 
 ---
 
-## Reporting Workflow
+## AI Editing Rules
 
-This repository uses a simple AI-assisted reporting workflow to keep the portfolio organized and visible.
+### Read Before Write
 
-1. **User provides updates through AI.** Meeting notes, status changes, new tasks, and decisions are communicated to the AI in plain language.
-2. **AI updates project files and trackers.** The AI edits the relevant CSV rows, markdown files, or dashboard files based on the updates provided.
-3. **GitHub remains the source of truth.** All committed changes in this repository are authoritative. CSV files and project markdown files are the primary record.
-4. **AI can generate reports from repository data.** When needed, the AI can read CSV and markdown files and generate summaries, dashboards, or status reports.
-5. **Dashboard files provide a human-readable layer.** The dashboard.md, current-priorities.md, leadership-review.md, and weekly-summary.md files translate tracker data into readable summaries.
-6. **Future integrations can consume data from the repository.** Airtable, Google Drive, custom dashboards, and other tools can be connected to consume this repository's data without replacing it as the source of truth.
+AI must read relevant files before making changes.
+
+### Approval Before Commit
+
+Default workflow:
+
+1. AI reads relevant files.
+2. AI proposes updates.
+3. User approves.
+4. AI commits changes.
+
+Auto-commit is only allowed when explicitly requested.
+
+### Read After Write
+
+After updates, AI verifies that the correct files, rows, or sections were changed.
+
+### Failed Update Reporting
+
+If an update fails or is blocked, AI must report it in a "Failed or Skipped Updates" section.
 
 ---
 
-## Reporting and Dashboard Files
+## Cross-Property Projects
+
+Use Related Project ID only when separate project ownership or responsibilities truly exist.
+
+Do not create duplicate projects simply because multiple properties are involved.
+
+Example:
+
+A Meridian event hosted at Bluff House remains a Meridian project unless Bluff House has separate owned responsibilities requiring its own project record.
+
+---
+
+## Reporting Files
 
 | File | Purpose |
-|------|---------|
-| dashboard.md | Portfolio-wide operational dashboard. AI-generated. Refresh regularly. |
-| current-priorities.md | Most important active work across the portfolio. Update when priorities change. |
-| leadership-review.md | Items requiring leadership review, approval, direction, or escalation. |
-| weekly-summary.md | Weekly summary of meaningful changes. Update weekly. |
-| reports/ | Folder for AI-generated reports and periodic summaries. |
+|---|---|
+| `dashboard.md` | Portfolio dashboard |
+| `current-priorities.md` | Current priority work |
+| `leadership-review.md` | Leadership decisions and approvals |
+| `weekly-summary.md` | Weekly progress summary |
 
 ---
 
-## Status Values
-
-Use these standard values across all CSV trackers for consistency.
+## Status Standards
 
 ### Project Status
+
 - Not Started
 - Planning
 - In Progress
@@ -118,6 +150,7 @@ Use these standard values across all CSV trackers for consistency.
 - Paused
 
 ### Task Status
+
 - Not Started
 - In Progress
 - Needs Review
@@ -125,99 +158,3 @@ Use these standard values across all CSV trackers for consistency.
 - Blocked
 - Completed
 - Deferred
-
-### Priority
-- High
-- Medium
-- Low
-- If AI is helping maintain this repo, provide the relevant CSV row or Markdown section and ask for a specific update.
-
----
-
-## AI Project Management Rules
-
-These rules govern how AI should manage this repository. They apply to all edits, updates, and reporting tasks.
-
-### Read Before Write
-
-AI must read the relevant files before editing them. Do not assume the current state of a file without reading it first.
-
-### Approval Before Commit
-
-The default workflow is:
-
-1. AI reads relevant files.
-2. AI proposes updates.
-3. User approves.
-4. AI commits changes.
-
-Auto-commit is allowed only when the user explicitly says so.
-
-### Read-After-Write Verification
-
-After committing, AI should re-open the updated files and verify that the expected rows, files, or sections were created correctly.
-
-### Failed Update Reporting
-
-If any file update fails or is blocked, AI must include a "Failed or Skipped Updates" section in its summary before finishing.
-
-### Dashboard Refresh Rule
-
-After meaningful project, campaign, task, or tracking updates, AI should refresh the following files when relevant:
-
-- dashboard.md
-- current-priorities.md
-- leadership-review.md
-- weekly-summary.md
-
-### Event Project Rule
-
-For event projects, AI should update all of the following that apply:
-
-- project-index.csv
-- project-tasks.csv
-- campaign-tracker.csv (if promotion is involved)
-- tracking-issues.csv (if registration or source tracking is needed)
-- event-tracker.csv
-- Marina project Markdown file
-- Dashboard and reporting files
-
-### Cross-Property Project Rule
-
-If a project involves more than one marina, use Related Project ID fields in project-index.csv and campaign-tracker.csv to connect the projects.
-
-Example: MER-EVT-001 relates to BH-EVT-001, and BH-EVT-001 relates to MER-EVT-001.
-- Low
-                - If AI is helping maintain this repo, provide the relevant CSV row or Markdown section and ask for a specific update.
-
----
-
-## Corporate / All Marinas Scope
-
-The Corporate / All Marinas scope (Marina ID: CORP) is for projects that affect all marinas or the full VIP Marinas portfolio. Use the marinas/corporate/ folder for these projects.
-
-### When to Use CORP vs Marina-Specific
-
-Use CORP when a project, task, or tracking issue applies to all marinas or cannot be attributed to a single marina. Use a marina-specific folder (e.g., marinas/lake-travis/) when the work is specific to one marina.
-
-Examples of CORP scope: conversion tracking standards, CRM and lead management setup, reporting and dashboard system, brand and messaging standards, vendor and agency management.
-
-### Marina ID Clarification: CORP vs ALL
-
-CORP is the Marina ID for the Corporate / All Marinas project owner. Use CORP in project-index.csv, project-tasks.csv, and marina-index.csv for corporate-scope projects.
-
-ALL is used only in tracking-issues.csv to indicate an issue that affects all properties but is not formally owned by a corporate project. When a tracking issue is resolved by creating a corporate project, update the Marina field to CORP and link the Related Project ID.
-
-### Tracking as a Corporate Project
-
-Portfolio-wide tracking issues (e.g., GA4/Google Ads conversion review) are managed under CORP-TRK-001 in project-index.csv. GEN-TRK-101 in tracking-issues.csv links to CORP-TRK-001. Do not treat portfolio-wide tracking issues as standalone items — they should roll up to the CORP-TRK-001 project.
-
----
-
-## Cross-Property Project Relationships
-
-Some projects involve more than one marina. In those cases, each property may have its own project record, and the records should be linked with Related Project ID.
-
-Example: MER-EVT-001 — Meridian Bahamas Run owns customer sign-ups, attendee sheet, registration, email, flyer, checklist, and Meridian customer communication. BH-EVT-001 — Bluff House Bahamas Run Destination Support owns destination support, rooms, slips, special rates, welcome party, onsite experience, and Bluff House logistics.
-
-Rule: Use Related Project ID only when the relationship is real and useful. Do not link unrelated corporate projects to marina-specific projects. Corporate projects (CORP scope) should have blank Related Project ID unless there is a documented reason to link them to a specific marina project.
